@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Home 1",
+        "image": "assets/images/logomain.png",
+        "location": "Boston"
+      },
+      {
+        "title": "Home 2",
+        "image": "assets/images/logomain.png",
+        "location": "California"
+      },
+      {
+        "title": "Home 3",
+        "image": "assets/images/logomain.png",
+        "location": "Lagos"
+      }
+]

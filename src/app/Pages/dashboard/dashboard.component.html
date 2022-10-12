@@ -1,0 +1,10 @@
+<div class="p-3">
+    <h2 class="pb-3">Homes</h2>
+    <div class="d-flex">
+        <div class="me-5 text-center" data-test="home" *ngFor="let home of homes | async">
+            <div data-test="title" class="fw-bold">{{home.title}}</div>
+            <div data-test="image"><img src="{{home.image}}" height="200" alt=""></div>
+            <div data-test="location" class="fs-4 fw-lighter">{{home.location}}</div>
+        </div>
+    </div>
+</div>
